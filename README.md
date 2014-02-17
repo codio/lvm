@@ -104,8 +104,14 @@ Manages LVM logical volumes.
   </tr>
   <tr>
     <td>filesystem</td>
-    <td>The format for the file system</td>
+    <td>Parameters to pass to mkfs when formatting the filesystem</td>
     <td><tt>'ext4'</tt></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>mkfs_params</td>
+    <td>The format for the file system</td>
+    <td><tt>'-i projid32bit=1'</tt></td>
     <td></td>
   </tr>
   <tr>

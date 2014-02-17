@@ -108,6 +108,20 @@ class Chef
         )
       end
 
+      # Attribute: filesystem - the file system type
+      #
+      # @param arg [String] the file system type
+      #
+      # @return [String] the file system type
+      #
+      def filesystem(arg = nil)
+        set_or_return(
+          :filesystem,
+          arg,
+          :kind_of => String
+        )
+      end
+
       # Attribute: mount_point - mount point for the logical volume
       #
       # @param arg [String] the mount point
