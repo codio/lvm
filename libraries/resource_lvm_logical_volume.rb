@@ -108,15 +108,15 @@ class Chef
         )
       end
 
-      # Attribute: filesystem - the file system type
+      # Attribute: mkfs_params - mkfs params
       #
-      # @param arg [String] the file system type
+      # @param arg [String] the mkfs params
       #
-      # @return [String] the file system type
+      # @return [String] the mkfs params
       #
-      def filesystem(arg = nil)
+      def mkfs_params(arg = nil)
         set_or_return(
-          :filesystem,
+          :mkfs_params,
           arg,
           :kind_of => String
         )
