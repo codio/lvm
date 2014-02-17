@@ -3,6 +3,12 @@ lvm Cookbook CHANGELOG
 This file is used to list changes made in each version of the lvm cookbook.
 
 
+v1.1.0 (2014-02-17)
+-------------------
+### Improvement
+- Added `mkfs_params` option to logical_volume resource
+
+
 v1.0.4 (2013-12-28)
 -------------------
 ### Bug

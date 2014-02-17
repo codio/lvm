@@ -108,6 +108,20 @@ class Chef
         )
       end
 
+      # Attribute: mkfs_params - mkfs params
+      #
+      # @param arg [String] the mkfs params
+      #
+      # @return [String] the mkfs params
+      #
+      def mkfs_params(arg = nil)
+        set_or_return(
+          :mkfs_params,
+          arg,
+          :kind_of => String
+        )
+      end
+
       # Attribute: mount_point - mount point for the logical volume
       #
       # @param arg [String] the mount point
